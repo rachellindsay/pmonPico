@@ -1,7 +1,8 @@
 # Setting up the plant monitor to work with the pico
 
-uart = UART0
+uart = UART0 (Need to use corresponding uart0 tx and rx gpio pins)
 
+### cable connections
 - pmon tx to pico rx GP1 (uart0 rx)
 - pmon rx to pico tx GP1 (uart0 tx)
 - pmon 3v to pico 3v3
